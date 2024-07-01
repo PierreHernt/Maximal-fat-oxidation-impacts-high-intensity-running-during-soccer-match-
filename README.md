@@ -1,68 +1,10 @@
 # Maximal Fat Oxidation and High-Intensity Running Performance in Elite Soccer Players
 
-## Introduction
+## ABSTRACT
+**Purpose** :  Maximal fat oxidation rates (MFO) is considered an important determinant of athletic performance in endurance sport, but studies have rarely investigated this issue in soccer. This study examined the possible associations between maximal fat oxidation and match running performance in elite soccer players, and aimed to assess the importance of maximal fat oxidation in match performance compared to other physical qualities more traditionally targeted by physical trainers (e.g., VO2max, strength, power).
+**Methods** : During the pre-season training, 41 youth elite soccer players performed a maximal and fasted submaximal graded exercise test on a treadmill for the determination of peak oxygen uptake (VO2max) and MFO, respectively. Additionally, vertical and horizontal force-velocity-power profile were obtained for each soccer player. The match-running performance was measured by a global positioning system (GPS) over a competitive season.
+**Results** :  Based on the weight of each variable obtained from 100 bootstraps on our regression trees, VO2max was identified as the most important variable for estimating total distance, F0 and Pmax for estimating sprint distance, and MFO for estimating high-intensity running (> 15km/h). Players exhibiting VO2max greater than 55.6 ml/min/kg covered more distance than others (P<0.05), and players with a MFO greater than 0.73 g/min covered more high-intensity distance (P<0.05). 
+**Conclusion** : This study identifies a specific threshold of approximately 0.7 g/min for maximal fat oxidation, which could serve as a benchmark for physical staff in elite soccer clubs. This finding support that maximal fat oxidation play an important role in high-intensity running performance during soccer game. Optimizing physical performance and endurance in soccer requires a holistic training approach that targets lower limb explosiveness, aerobic power, and fat oxidation, recognizing the multifaceted nature of high-intensity effort. 
+**Keywords**: fat oxidation, exercise physiology, football, metabolic profile, anaerobic threshold
 
-This study examines the possible associations between maximal fat oxidation (MFO) and match running performance in elite soccer players. It also aims to assess the importance of MFO in match performance compared to other physical qualities traditionally targeted by physical trainers (e.g., VO2max, strength, power).
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data](#data)
-- [Code](#code)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-### Prerequisites
-
-- R version 3.6 or higher
-- RStudio
-- Required R packages: `ggplot2`, `dplyr`, `rpart`, `boot`
-
-### Instructions
-
-Clone the repository and install the necessary dependencies:
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Rscript install_packages.R
-```
-
-## Usage
-
-Rscript Variables\ Importances.R
-
-## Data
-The dataset used in this study is available in the file data_standardized.csv. This file contains physiological and performance data of elite soccer players collected over a competitive season.
-
-### Data Structure
-- Identifiant : Player identifier
-- VO2max: Maximum oxygen consumption (ml/min/kg)
-- MFO: Maximum fat oxidation (g/min)
-- F0H: Theoretical horizontal maximal force (N/kg)
-- PmaxH: Theoretical horizontal maximal power (W/kg)
-- total_distance: Total distance covered (m)
-- high_intensity_distance: High-intensity distance covered (m)
-
-## Code
-
-### Variables Importances
-The Variables Importances.R script uses regression trees to assess the importance of physiological variables on GPS-measured running performance.
-
-### Simple Tree
-The Arbre simple.R script generates a simplified regression tree based on the most discriminative variable for GPS-measured running performance.
-
-## Results
-
-### Importance of Variables for Total Distance
-Results indicate that VO2max is the most important variable for estimating the total distance covered during matches. Players with a VO2max greater than 55.6 ml/min/kg cover more distance on average than those below this threshold.
-
-### Importance of Variables for Sprint Performance
-F0H and PmaxH are the most important variables for estimating sprint performance. Players with a PmaxH greater than 19 W/kg tend to have higher sprint performance.
-
-### Importance of Variables for High-Intensity Running
-MFO is the most important variable for estimating high-intensity running distance (> 15 km/h). Players with an MFO greater than 0.73 g/min cover more high-intensity distance on average than those below this threshold.
+## CODE 
