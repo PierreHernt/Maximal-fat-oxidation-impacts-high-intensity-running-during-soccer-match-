@@ -7,4 +7,20 @@
 **Conclusion** : This study identifies a specific threshold of approximately 0.7 g/min for maximal fat oxidation, which could serve as a benchmark for physical staff in elite soccer clubs. This finding support that maximal fat oxidation play an important role in high-intensity running performance during soccer game. Optimizing physical performance and endurance in soccer requires a holistic training approach that targets lower limb explosiveness, aerobic power, and fat oxidation, recognizing the multifaceted nature of high-intensity effort. 
 **Keywords**: fat oxidation, exercise physiology, football, metabolic profile, anaerobic threshold
 
+## DATASET
+
+
 ## CODE 
+
+**SIMPLE_TREE** :  A simplified regression tree model with one split. The results of this model are illustrated in our figures. The main split threshold of the tree was selected to segment individuals based on the physiological variable most associated with our GPS variable of interest.
+
+**VARIABLES_IMPORTANCES** : To analyze the impact of various physiological variables on the measured GPS data, regression trees were used, and their importance was assessed using 1000 bootstrap samples. This method aims to provide stable estimates of variable importance, expressed as mean ± SD. The following equation was used for this purpose:
+
+![image](https://github.com/PierreHernt/Maximal-fat-oxidation-impacts-high-intensity-running-during-soccer-match-/assets/120321905/9875a039-15ee-45cf-a0d6-eee674fee4c5)
+
+
+- **A**: Decision tree.
+- **t**: A node in the tree.
+- **ΔR̂**: Reducing prediction error.
+- **dₘ(t)**: The decision (or split) is made using the variable Xₘ at node t.
+
