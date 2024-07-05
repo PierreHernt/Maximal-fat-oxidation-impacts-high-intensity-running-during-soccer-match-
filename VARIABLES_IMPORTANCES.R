@@ -14,7 +14,7 @@ library(here)
 # DATA IMPORTATION
 base_path <- here()
 print(paste(base_path))
-df_standardized <- read.csv2("data_standardized.csv", sep=',', dec=".", check.names=F, fileEncoding = "LATIN1")
+df_standardized <- read.csv2("DATA_STANDARDIZED.csv", sep=',', dec=".", check.names=F, fileEncoding = "LATIN1")
 
 # Initialize a function to process different variables
 process_variable <- function(variable_name, df) {
