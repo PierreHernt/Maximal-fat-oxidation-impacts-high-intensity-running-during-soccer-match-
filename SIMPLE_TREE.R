@@ -20,7 +20,7 @@ df_standardized <- read.csv2("STANDARDIZED_DATA.csv", sep=',', dec=".", check.na
 # Initialize a function to process different variables
 process_variable <- function(variable_name, df) {
   data <- df %>%
-    select(MFO, VO2max, Pmax, F0, all_of(variable_name)) %>% 
+    select(MFO, VO2max, PmaxH, F0H, all_of(variable_name)) %>% 
     rename(var = all_of(variable_name))
   
   # Fit the decision tree
