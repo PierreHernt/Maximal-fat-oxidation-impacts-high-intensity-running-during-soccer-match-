@@ -89,7 +89,6 @@ process_variable <- function(variable_name, df) {
       x = "", y = "Importance: Mean ± SD", title = paste("Variable Importance for Predicting", variable_name)
     ) + coord_flip()
   
-  print(plot_1)
 }
 
 # List of variables to analyze
