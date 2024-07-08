@@ -59,7 +59,6 @@ process_variable <- function(variable_name, df) {
   p_value_text <- paste("p-value:", format(test_result$p.value, digits = 3))
   plot_2 <- plot_2 + annotate("text", x = 1.5, y = max(data$var + 0.1, na.rm = TRUE), 
                               label = p_value_text, size = 5, color = "black")
-  print(plot_2)
 }
 
 # List of variables to analyze
