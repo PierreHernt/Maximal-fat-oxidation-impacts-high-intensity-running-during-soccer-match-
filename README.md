@@ -1,4 +1,4 @@
-# Maximal Fat Oxidation and High-Intensity Running Performance in Elite Soccer Players
+# Maximal Fat Oxidation and High-Intensity Running Performance in Elite Players
 
 ## ABSTRACT
 * **Purpose** :  Maximal fat oxidation ratesrate (MFO) is considered an important determinant of athletic performance in endurance sportsports, but studies have rarely investigated this issueits impact on physical performance in team sports, especially soccer, remains poorly understood. This study examined the possible associations between MFO and match running performance in elite soccer players, and aimedaiming to assess the importance of MFO in match performance compared to other physical qualities more traditionally targeted by physical trainers.
