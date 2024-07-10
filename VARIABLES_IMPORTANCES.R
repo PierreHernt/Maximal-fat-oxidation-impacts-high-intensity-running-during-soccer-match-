@@ -86,7 +86,7 @@ process_variable <- function(variable_name, df) {
       panel.grid.major = element_line(color = "grey70"),
       panel.grid.minor = element_blank()) +
     labs(
-      x = "", y = "Importance: Mean ± SD", title = paste("Variable Importance for Predicting", variable_name)
+      x = "", y = "Importance: Mean ± SD", title = paste("Variable Importance To Predict", variable_name)
     ) + coord_flip()
   
 }
